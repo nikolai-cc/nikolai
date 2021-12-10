@@ -4,7 +4,7 @@
 	export let url;
 </script>
 
-<div class="project" style="--img: url({image})">
+<div class="project" style="--img: url('/{image}')">
 	<div class="content">
 		<a href={url}>{name}</a>
 	</div>
