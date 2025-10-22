@@ -36,18 +36,18 @@
 
 <div class="container">
 	{#if face}
-		<Face />
+		<Face height={375} />
 	{/if}
 	{#if about}
-		<Text title="about me" x={250} width={500} height={300}>
+		<Text title="about me" x={250} width={500} height={400}>
 			<About />
 		</Text>
 	{/if}
 	{#if projects}
-		<Projects title="projects" y={300} />
+		<Projects title="projects" x={75} y={350} width={300} height={300} />
 	{/if}
 	{#if contact}
-		<Contact title="contact" x={300} y={300} />
+		<Contact title="contact" x={400} y={300} width={300} />
 	{/if}
 </div>
 

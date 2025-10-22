@@ -12,6 +12,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.22",
 		"@sveltejs/kit": "1.0.0-next.201",
+		"@sveltejs/vite-plugin-svelte": "1.0.0-next.34",
 		"eslint": "7.32.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-plugin-svelte3": "3.2.1",
@@ -21,11 +22,11 @@
 		"svanim": "0.1.1",
 		"svelte": "3.44.2",
 		"svelte-match-media": "1.2.1",
-		"vite": "2.7.1",
-		"@sveltejs/vite-plugin-svelte": "1.0.0-next.34"
+		"vite": "2.7.1"
 	},
 	"type": "module",
 	"dependencies": {
+		"@openpanel/web": "^1.0.1",
 		"svelte-transform": "0.1.4"
 	}
 }

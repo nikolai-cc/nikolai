@@ -1,30 +1,23 @@
 [
-    {
-        "name": "The Ministry of Extraordinary Affairs",
-        "image": "ministry.png",
-        "url": "https://theministry.co",
-        "description": "Design Studio for interactive experiences that ✨ spark joy!",
-        "current": true
-    },
-    {
-        "name": "NO SIGNAL",
-        "image": "nosignal.png",
-        "url": "https://nosignal.agency",
-        "description": "Digital Design Agency for businesses that don't settle for a can of tuna.",
-        "current": true
-    },
-    {
-        "name": "LEDbits",
-        "url": "https://ledbits.eu",
-        "image": "ledbits.png",
-        "description": "Designing with LEDs is finally made easy.",
-        "current": false
-    },
-    {
-        "name": "Altijd Design",
-        "url": "https://altijddesign.nl",
-        "image": "altijd.png",
-        "description": "Branding, Web Design, and Digital Marketing",
-        "current": false
-    }
+	{
+		"name": "The Ministry of Extraordinary Affairs",
+		"image": "ministry.png",
+		"url": "https://theministry.co",
+		"description": "Design Studio for interactive experiences that ✨ spark joy!",
+		"current": true
+	},
+	{
+		"name": "Myubio",
+		"image": "myubio.jpg",
+		"url": "https://nosignal.agency",
+		"description": "Transdisciplinary sound art collective.",
+		"current": true
+	},
+	{
+		"name": "LEDbits",
+		"url": "https://ledbits.eu",
+		"image": "ledbits.png",
+		"description": "Designing with LEDs is finally made easy.",
+		"current": false
+	}
 ]

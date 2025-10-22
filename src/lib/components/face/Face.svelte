@@ -22,7 +22,7 @@
 	};
 </script>
 
-<Window title="nikolai.cc">
+<Window title="nikolai.cc" {...$$props}>
 	<div class="face" bind:clientWidth={containerWidth}>
 		<pre
 			style="--fs: {fontSize}px; --x: {x}px; --y: {y}px; --cs: {circleSize}px;"

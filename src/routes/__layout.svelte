@@ -1,6 +1,14 @@
 <script>
+	import { onMount } from 'svelte';
+
 	import '$lib/css/reset.css';
 	import '$lib/css/base.css';
+
+	import { op } from '$lib/op';
+
+	onMount(() => {
+		op.init();
+	});
 </script>
 
 <svelte:head>

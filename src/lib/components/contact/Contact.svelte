@@ -10,8 +10,7 @@
 			>.
 		</p>
 		<p>
-			See also my open souce work <a href="https://github.com/nikolai-cc">on github</a> and my
-			professional profile <a href="https://linkedin.com/in/nikolaii">on linkedin</a>.
+			See also my open souce work <a href="https://github.com/nikolai-cc">on github</a>.
 		</p>
 	</div>
 </Window>
