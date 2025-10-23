@@ -6,7 +6,6 @@
 	import About from '$lib/content/about.md';
 
 	import { onMount } from 'svelte';
-	import { tweened } from 'svelte/motion';
 
 	let face = false;
 	let about = false;

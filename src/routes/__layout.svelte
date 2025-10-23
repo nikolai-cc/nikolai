@@ -1,13 +1,12 @@
 <script>
 	import { onMount } from 'svelte';
+	import { init } from '$lib/stat';
 
 	import '$lib/css/reset.css';
 	import '$lib/css/base.css';
 
-	import { op } from '$lib/op';
-
 	onMount(() => {
-		op.init();
+		init();
 	});
 </script>
 
