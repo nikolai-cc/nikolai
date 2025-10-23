@@ -3,7 +3,7 @@ import rybbit from '@rybbit/js';
 const domains = {
 	'nsgnl.dev': '1',
 	'nikolai.cc': '2',
-	'nikolai.gillissen.com': '3'
+	'nikolai.gillissen.com': '2'
 };
 
 export const init = () => {
