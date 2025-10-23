@@ -8,10 +8,13 @@ const domains = {
 
 export const init = () => {
 	const hostname = window.location.hostname;
-	if (!Object.keys(domains).some((d) => hostname === d || hostname.endsWith(`.${d}`))) return;
+	const id = Object.entries(domains).find(([domain]) => hostname.endsWith(domain))[1];
+
+	if (!id) return;
+
 	rybbit.init({
-		analyticsHost: 'https://stats.nsgnl.cool',
-		siteId: domains[hostname],
+		analyticsHost: 'https://stats.nsgnl.cool/api',
+		siteId: id,
 		trackWebVitals: true
 	});
 };
